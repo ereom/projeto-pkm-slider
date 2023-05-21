@@ -1,0 +1,34 @@
+@media (max-width: 620px) {
+    .pokemon-slider {
+        padding: 0 15px;
+        gap: 13px;
+    }
+}
+
+    .btn-seta {
+        width: 20px;
+        height: 20px;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .lista-pokemons {
+        height:  480px;       
+    }
+
+    .card .img-pkm {
+        max-height: 250px;
+        padding: 10px;
+    }
+
+    .card .info .nome {
+        max-width: 50%;
+        font-size: 1rem;
+    }
+
+    .card .info .hp {
+        font-size: 14px;
+    }
+

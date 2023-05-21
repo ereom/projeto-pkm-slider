@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon Card Slider - MapaDev Week</title>
+
+
+    <link rel="shortcut icon" href="src/imagens/pokebola.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/estilos.css">
+    <link rel="stylesheet" href="src/css/responsivo.css">
+
+
+</head>
+<body>
+    <header class="cabecalho">
+        <img src="src/imagens/pokebola.png" alt="pokeball" class="pokeball">
+        <h1 class="titulo">Pokemon Card Slider</h1>
+    </header>
+
+    <main class="pokemon-slider">
+        <button  class="btn-seta btn-voltar" id="btn-back">
+            <img src="src/imagens/seta.png" alt="seta back">
+    
+        </button>
+
+        <ul class="lista-pokemons">
+            <li class="card select fundo-1">
+                <div class="info">
+                    <h2 class="name">Pikachu</h2>
+                        <p class="hp">HP 130</p>
+                            <span class="energy"><img src="src/imagens/pokemon-electric-type-energy-25px.png" alt="electric-energy" class="symbol"></span>
+                                                
+                </div>
+                <div class="container-img">
+                    <img src="src/imagens/pikachu.png" alt="Pikachu" class="img-pkm">
+                </div>
+                <div class="description">
+                    <h3 class="title">Description</h3>
+                    <p class="txt">It has small electric sacs on both its cheeks. If threatened, it looses electric charges from the sacs.</p>
+                </div>
+            </li>
+
+            <li class="card fundo-2">
+                <div class="info">
+                    <h2 class="name">Charizard</h2>
+                        <p class="hp">HP 210</p>
+                        <span class="energy"><img src="src/imagens/fire-energy-25px.png" alt="fire-energy" class="symbol"></span>
+                                                                                   
+                </div>
+                <div class="container-img">
+                    <img src="src/imagens/charizard.png" alt="Charizard" class="img-pkm">
+                </div>
+                <div class="description">
+                    <h3 class="title">Description</h3>
+                    <p class="txt">It is said that Charizard's fire burns hotter if it has experienced harsh battles.</p>
+                </div>
+
+            </li>
+
+            <li class="card fundo-3">
+                <div class="info">
+                    <h2 class="name">Mewtwo</h2>
+                        <p class="hp">HP 180</p>
+                        <span class="energy"><img src="src/imagens/psych-energy2.png" alt="psych" class="symbol"></span>
+                </div>
+                <div class="container-img">
+                    <img src="src/imagens/mewtwo.png" alt="Mewtwo" class="img-pkm">
+                </div>
+                <div class="description">
+                    <h3 class="title">Description</h3>
+                    <p class="txt">A Pokémon whose genetic code was repeatedly recombined for research. It turned vicious as a result.</p>
+                </div>
+            </li>
+        </ul>
+
+        <button class="btn-seta" id="btn-go">
+            <img src="src/imagens/seta.png" alt="seta forward">
+
+    </main>
+
+    <script src="src/js/index.js"></script>
+</body>
+</html>
